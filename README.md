@@ -1,0 +1,2 @@
+# pc-comput-pg
+computadora
