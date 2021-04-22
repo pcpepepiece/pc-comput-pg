@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	   
+	
+	<meta charset="UTF-8">
+	<title>Menu Simple con HTML Y CSS</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="file:///C:/Users/ryzen/Desktop/html/pagina%201.html">Inicio</a></li>
+				<li><a href="file:///C:/Users/ryzen/Desktop/html/PAGINA%203.html">Galeria</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="file:///C:/Users/ryzen/Desktop/html/SOPORTE%20A%20DISTANCIA%202.html">Pagina 2</a></li>
+						<li><a href="file:///C:/Users/ryzen/Desktop/html/PAGINA%204.html">Pagina 3</a></li>
+						<li><a href="file:///C:/Users/ryzen/Desktop/html/pagina%205.html">Pagina 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	body{
+		background: #313D52;
+	}
+	
+	header{
+		width: 100%;
+	}
+	
+	.navegacion{
+		width: 1000px;
+		margin: 30px auto;
+		background: #fff;
+	}
+	
+	.navegacion ul{
+		list-style: none;
+	}
+	
+	.menu > li{
+		position: relative;
+		display: inline-block;
+	}
+	
+	.menu > li > a{
+		display: block;
+		padding: 15px 20px;
+		color: #353535;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	
+	.menu li a:hover{
+		color: #CE7D35;
+		transition: all .3s;
+	}
+	
+	/* Submenu*/
+	
+	.submenu{
+		position: absolute;
+		background: #333333;
+		width: 120%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 1.5s;
+	}
+	
+	.submenu li a{
+		display: block;
+		padding: 15px;
+		color: #fff;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	
+	.menu li:hover .submenu{
+		visibility: visible;
+		opacity: 1;
+	}
+
+<table>
+	<br><br><br>
+	<div class="slider">
+		<ul>
+			<li>
+				<img src="https://i.pinimg.com/originals/74/52/db/7452db2aafa89196801ef4fe680137e0.jpg">
+			</li>
+			<li>
+				<img src="https://s1.1zoom.me/big0/160/354276-admin.jpg">
+			</li>
+			<li>
+				<img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/goroda-pejzazh-ulicy-22228.jpg">
+			</li>
+			<li>
+				<img src="http://2.bp.blogspot.com/-dNtt1v-HAOE/UFdRpT_pY9I/AAAAAAAABXw/gBzxja1td3Y/s1600/fondos-escritorio-ciudades-1280.jpg">
+			</li>
+		</ul>
+	</div>
+
+<tr><td>1</td></tr>
+
+</table>
+
+
+
+</body>
+</html>
